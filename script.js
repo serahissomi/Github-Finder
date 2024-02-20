@@ -44,10 +44,10 @@ showProfile(user) {
                     <a href="${user.html_url}" target="_blank" class="btn btn-primary btn-block mb-4">View Profile</a>
                 </div>
                 <div class="col-md-9">
-                    <span class="badge badge-primary">Public Repos: ${user.public_repos}</span>
-                    <span class="badge badge-secondary">Public Gists: ${user.public_gists}</span>
-                    <span class="badge badge-success">Followers: ${user.followers}</span>
-                    <span class="badge badge-info">Following: ${user.following}</span>
+                    <span class="badge bg-primary">Public Repos: ${user.public_repos}</span>
+                    <span class="badge bg-secondary">Public Gists: ${user.public_gists}</span>
+                    <span class="badge bg-success">Followers: ${user.followers}</span>
+                    <span class="badge bg-info">Following: ${user.following}</span>
                     <br></br>
                     <ul class="list-group">
                         <li class="list-group-item">Company: ${user.company}</li>
@@ -74,9 +74,9 @@ showRepos(repos) {
                         <a href="${repo.html_url}" target="_blank">${repo.name}</a>
                     </div>
                     <div class="col-md-6">
-                    <span class="badge badge-primary">Stars: ${repo.stargazer_count}</span>
-                    <span class="badge badge-secondary">Watchers: ${repo.watchers_count}</span>
-                    <span class="badge badge-success">Forks: ${repo.forms_count}</span>
+                    <span class="badge bg-primary">Stars: ${repo.stargazer_count}</span>
+                    <span class="badge bg-secondary">Watchers: ${repo.watchers_count}</span>
+                    <span class="badge bg-success">Forks: ${repo.forms_count}</span>
                     </div>
                 </div>
             </div>
